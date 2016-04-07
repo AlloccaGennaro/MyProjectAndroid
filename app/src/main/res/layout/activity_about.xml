@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        android:background="#5ba4e5"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:text="  ABOUT YOU  "
+        android:layout_gravity="center"
+        android:background="@drawable/btn_blue_back" />
+
+    <EditText
+        android:id="@+id/name_user"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:layout_marginTop="5px"
+        android:inputType="textPersonName"
+        android:hint="name"/>
+
+    <EditText
+        android:id="@+id/lastname_user"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="lastname" />
+
+    <EditText
+        android:id="@+id/city_user"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="city" />
+
+    <EditText
+        android:id="@+id/age_user"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:numeric="integer"
+        android:hint="age" />
+
+    <LinearLayout
+        android:layout_width="440px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/forwardbtn"
+        android:layout_width="140px"
+        android:layout_height="50px"
+        android:layout_marginTop="5px"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Forward"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="140px"
+        android:layout_height="50px"
+        android:layout_gravity="center"
+        android:layout_marginTop="5px"
+        android:background="@drawable/btn_red_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Back" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="5px"
+        android:layout_width="500px"
+        android:layout_height="fill_parent"
+        android:src="@drawable/umore"/>
+
+</LinearLayout>

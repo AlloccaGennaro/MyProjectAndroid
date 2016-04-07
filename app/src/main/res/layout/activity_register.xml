@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        android:background="#5ba4e5"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="440px"
+        android:textSize="15sp"
+        android:layout_height="70px"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:inputType="textEmailAddress"
+        android:hint="example@mail.com"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="440px"
+        android:layout_height="70px"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:hint="*****"/>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="440px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:background="@drawable/btn_red_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Back" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/umore"/>
+
+</LinearLayout>
